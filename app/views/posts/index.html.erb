@@ -5,7 +5,7 @@
         <% if post.user %>
           <%= post.user.first_name %>
         <% else %>
-          anonymous
+          anonymous <!--shows anonymous as poster if there is no user attached -->
         <% end %>
       </h4>
       <% if post.uploaded_image.attached? %>
